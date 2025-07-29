@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://bkpr330gfnqpr"]
+
+[ext_resource type="Script" path="res://Items/Scripts/Item.gd" id="1_v6nhj"]
+[ext_resource type="Texture2D" uid="uid://6jwi8008kcf6" path="res://assert/Objects/Egg_item.png" id="2_vrd6q"]
+
+[resource]
+script = ExtResource("1_v6nhj")
+id = &"0"
+name = "Egg"
+texture = ExtResource("2_vrd6q")
+max_stack = 64
+quantity = 1
