@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Inventory" load_steps=5 format=3 uid="uid://uy45a04o7gfd"]
+
+[ext_resource type="Script" path="res://Inventory/Scripts/inventory.gd" id="1_7rpg6"]
+[ext_resource type="Script" path="res://Items/Scripts/Item.gd" id="2_ner1y"]
+[ext_resource type="Resource" uid="uid://bkpr330gfnqpr" path="res://Items/Tres/egg.tres" id="3_xgutx"]
+[ext_resource type="Resource" uid="uid://pqyltu2jhvcw" path="res://Items/Tres/tomato.tres" id="4_h750p"]
+
+[resource]
+script = ExtResource("1_7rpg6")
+name = &"test_bag"
+slots = Array[ExtResource("2_ner1y")]([ExtResource("3_xgutx"), null, ExtResource("4_h750p")])

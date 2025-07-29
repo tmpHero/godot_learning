@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=3 uid="uid://btyccp7xjw1ji"]
+
+[ext_resource type="Script" path="res://test/Scripts/mouse_slot.gd" id="1_0ouxe"]
+[ext_resource type="Texture2D" uid="uid://6jwi8008kcf6" path="res://assert/Objects/Egg_item.png" id="2_dkb0x"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_46wko"]
+font_size = 4
+
+[node name="MouseSlot" type="Node2D"]
+script = ExtResource("1_0ouxe")
+
+[node name="item_texture" type="Sprite2D" parent="."]
+texture = ExtResource("2_dkb0x")
+centered = false
+
+[node name="number" type="Label" parent="item_texture"]
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -7.0
+offset_top = -7.0
+grow_horizontal = 0
+grow_vertical = 0
+text = "sad"
+label_settings = SubResource("LabelSettings_46wko")
+horizontal_alignment = 1
+vertical_alignment = 1
